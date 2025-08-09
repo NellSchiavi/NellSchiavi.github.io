@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seu Nome — Portfólio</title>
+  <meta name="description" content="Portfólio pessoal com projetos, habilidades e contato." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site">
+    <div class="container nav">
+      <div class="brand">&lt;<b>Nelson Braga Schaivi</b>/&gt;</div>
+      <nav class="menu" id="menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="Abrir menu" id="menuBtn">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero" aria-label="Apresentação">
+      <div class="hero-card">
+        <p class="sub">Olá, eu sou</p>
+        <h1>Nelson Schiavi — Desenvolvedor Full‑Stack</h1>
+        <p class="lead">Desenvolvo soluções digitais sob medida, que vão de experiências web personalizadas a sistemas de gestão e aplicações de Inteligência Artificial. Explore meus projetos, conheça minha stack e descubra como podemos conversar.</p>
+        <div class="actions">
+          <a class="btn" href="#projetos">Ver projetos</a>
+          <a class="btn" href="mailto:nelsonbragaschiavi@gmail.com">Fale comigo</a>
+          <a class="btn" href="https://github.com/NellSchiavi" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <aside class="avatar-card" aria-label="Foto de perfil">
+        <!-- Substitua por uma imagem sua em /assets/avatar.jpg -->
+        <img class="avatar" src="assets/avatar.jpg" alt="Foto de Seu Nome" />
+      </aside>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" aria-label="Sobre mim">
+      <h2>Sobre</h2>
+      <p class="sub">Um breve resumo profissional.</p>
+      <div class="about-grid">
+        <article class="card">
+          <h3>Quem sou</h3>
+          <p>Sou desenvolvedor com foco em <strong>Back‑end</strong>, <strong>DataBase</strong> e <strong>UX</strong> , com experiência em React, TypeScript e nos bancos de dados PostgreSQL e MySQL. Busco sempre unir lógica e usabilidade para transformar problemas técnicos em soluções eficientes e interfaces claras.</p>
+        </article>
+        <article class="card">
+          <h3>O que faço</h3>
+          <p>Desenvolvo sites e aplicações responsivas, priorizando desempenho e seguindo boas práticas de acessibilidade (WCAG). Tenho experiência na criação de interfaces a partir de protótipos no Figma, transformando-os em código funcional e documentado, com atenção a testes e integração contínua (CI/CD).</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" aria-label="Habilidades">
+      <h2>Habilidades</h2>
+      <p class="sub">Tecnologias que uso no dia a dia.</p>
+      <div class="chips">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3 / Sass</span>
+        <span class="chip">JavaScript / TS</span>
+        <span class="chip">React</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">Git & GitHub</span>
+        <span class="chip">MySQL</span>
+        <span class="chip">PostgreSQL</span>
+        <span class="chip">Python</span>
+        <span class="chip">Docker</span>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" aria-label="Projetos">
+      <h2>Projetos em destaque</h2>
+      <p class="sub">Clique para ver código e demo.</p>
+
+      <div class="grid">
+        <article class="project col-4">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Preview do Projeto 1" />
+          <div class="p-body">
+            <h3>Projeto 1 — em organização</h3>
+            <p>TESTE TESTE TESTE.</p>
+            <div class="tags"><span>#TEST</span><span>#TEST</span><span>#TEST</span></div>
+            <div class="links">
+              <a class="btn" href="#" target="_blank" rel="noopener">Demo</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project col-4">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="Preview do Projeto 2" />
+          <div class="p-body">
+            <h3>Projeto 2 — em organização</h3>
+            <p>TESTE TESTE TESTE.</p>
+            <div class="tags"><span>#TEST</span><span>#TEST</span><span>#TEST</span></div>
+            <div class="links">
+              <a class="btn" href="#" target="_blank" rel="noopener">Demo</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project col-4">
+          <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop" alt="Preview do Projeto 3" />
+          <div class="p-body">
+            <h3>Projeto 3 — em organização</h3>
+            <p>TESTE TESTE TESTE.</p>
+            <div class="tags"><span>#TEST</span><span>#TEST</span><span>#TEST</span></div>
+            <div class="links">
+              <a class="btn" href="#" target="_blank" rel="noopener">Demo</a>
+              <a class="btn" href="#" target="_blank" rel="noopener">Código</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" aria-label="Contato">
+      <h2>Contato</h2>
+      <p class="sub">Canais rápidos para falar comigo.</p>
+      <div class="contact">
+        <div class="card">
+          <h3>Vamos conversar</h3>
+          <ul class="list">
+            <li>Email: <a href="mailto:nelsonbragaschiavi@gmail.com">nelsonbragaschiavi@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/nelson-braga-schiavi-460334251/" target="_blank" rel="noopener">linkedin.com/in/Nelson Schiavi</a></li>
+            <li>GitHub: <a href="https://github.com/NellSchiavi" target="_blank" rel="noopener">github.com/NellSchiavi</a></li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Disponibilidade</h3>
+          <p>Aberto para projetos freelance e propostas CLT/PJ. Estabelecido no Brasil, trabalho remoto.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Nelson Schiavi. HTML/CSS/JS.
+    </div>
+  </footer>
+
+  <!-- JS principal -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
